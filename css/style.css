@@ -65,7 +65,7 @@ div a:link, div a:visited {
 
 
 div a:hover {
-    font-weight:bold;
+    color: rgb(115,101,64);
     cursor:pointer;
     
     }
@@ -140,8 +140,8 @@ div a:hover {
     width: 96%;
   }
   .logo {
-  width:270px;
-  height:151px;
+  width:150px;
+  height:84px;
   position:absolute;
   top:25px;
   right:25px;
@@ -151,7 +151,7 @@ div a:hover {
   height:35px;
   position:absolute;
   top:10px;
-  right:206px;
+  right:155px;
 }
 .title {
   position: absolute;
