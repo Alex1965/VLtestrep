@@ -74,26 +74,6 @@ section {
   background-color: none;
  }
 
-.logo {
-  width:270px;
-  height:151px;
-  position:absolute;
-  top:25px;
-  right:50px;
-}
-
-.star {
-  width:30px;
-  height:35px;
-  position:absolute;
-  top:10px;
-  right:217px;
-  animation: myborder 5s infinite;
-  animation-direction: alternate;
- }
-
-
-
 
 /********** Desktop device **********/
 @media (min-width: 992px) 
@@ -104,8 +84,14 @@ section {
  .logo {
   width:270px;
   height:151px;
+  position:absolute;
+  top:25px;
+  right:50px;
 }
 .star {
+  width:30px;
+  height:35px;
+  position:absolute;
   top:10px;
   right:231px;
 }
@@ -123,8 +109,14 @@ section {
   .logo {
   width:270px;
   height:151px;
+  position:absolute;
+  top:25px;
+  right:50px;
 }
 .star {
+  width:30px;
+  height:35px;
+  position:absolute;
   top:10px;
   right:231px;
 }
@@ -139,8 +131,14 @@ section {
   .logo {
   width:200px;
   height:112px;
+  position:absolute;
+  top:25px;
+  right:50px;
 }
 .star {
+  width:30px;
+  height:35px;
+  position:absolute;
   top:10px;
   right:180px;
 }
