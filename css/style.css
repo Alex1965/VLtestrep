@@ -1,0 +1,103 @@
+* {
+		box-sizing: border-box;
+		font-family:"Times new Roman", cursive, sans-serif;
+   }
+body {
+  background-image: url("../images/test 4.png"),url("../images/worldmapsilver95.png"); 
+  background-size: 30% , cover;
+  background-position: 98% 4% , left top; 
+  background-repeat: no-repeat, no-repeat;
+  background-color: black;
+  z-index: 0;  
+   }
+h1 {
+	text-align:left;
+	font-size:250%;
+  margin-left:2%;
+  margin-top:25%;
+	margin-bottom: 40px;
+  color:rgb(115,101,64);
+}
+p {
+  font-size: 100%;
+  background-color: none;
+  color: #BFBAB1;
+  text-align:justify;
+  height: 100px;
+  overflow: hidden;
+ }
+section {
+  padding: 40px 15px 15px 15px;
+  margin: 2% 2% 2% 2%;
+  border: 0px solid black;
+  float: left;
+  position: relative;
+  background-color: none;
+  animation: myborder 5s infinite;
+  animation-direction: alternate;
+  
+ }
+
+ @keyframes myborder {
+  0% {border-color:none;}
+  90% {border-color:none;}
+  100% {border-color: rgb(115,101,64);}
+ }
+
+.row {
+  width: 100%;
+
+}
+
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
+  
+}
+
+.par1 {
+  background-color:none;
+  }
+
+.par2 {
+  background-color: none;
+   }
+
+.par3 {
+  background-color: none;
+ }
+
+
+/********** Desktop device **********/
+@media (min-width: 992px) 
+{
+  .col-lg-4 {
+    width: 29%;
+  }
+}
+
+/********** Tablet device **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .col-md-6 {
+    width: 46%;
+  }
+  .col-md-12 {
+    width: 96%;
+  }
+}
+/********** Mobile device **********/
+@media (max-width: 767px)
+{
+  .col-sd-12 {
+    width: 96%;
+  }
+}
