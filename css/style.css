@@ -74,6 +74,12 @@ section {
   background-color: none;
  }
 
+.star{
+  animation: myborder 5s infinite;
+  animation-direction: alternate;
+}
+
+
 
 /********** Desktop device **********/
 @media (min-width: 992px) 
@@ -129,8 +135,8 @@ section {
     width: 96%;
   }
   .logo {
-  width:200px;
-  height:112px;
+  width:150px;
+  height:84px;
   position:absolute;
   top:25px;
   right:50px;
