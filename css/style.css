@@ -3,10 +3,10 @@
 		font-family:"Times new Roman", cursive, sans-serif;
    }
 body {
-  background-image: url("../images/VL logo inside.png"),url("../images/worldmapsilver95.png"); 
-  background-size: 30% , cover;
-  background-position: 98% 4% , left top; 
-  background-repeat: no-repeat, no-repeat;
+background-image: url("../images/worldmapsilver95.png"); 
+  background-size: cover;
+  background-position: left top; 
+  background-repeat: no-repeat;
   background-color: black;
   z-index: 0;  
    }
@@ -33,15 +33,14 @@ section {
   float: left;
   position: relative;
   background-color: none;
-  animation: myborder 5s infinite;
-  animation-direction: alternate;
+  
   
  }
 
  @keyframes myborder {
-  0% {border-color:none;}
-  90% {border-color:none;}
-  100% {border-color: rgb(115,101,64);}
+  0% {opacity:0;}
+  95% {opacity:0.05;}
+  100% {opacity:0.4;}
  }
 
 .row {
@@ -75,14 +74,42 @@ section {
   background-color: none;
  }
 
+.logo {
+  width:270px;
+  height:151px;
+  position:absolute;
+  top:25px;
+  right:50px;
+}
+
+.star {
+  width:30px;
+  height:35px;
+  position:absolute;
+  top:10px;
+  right:217px;
+  animation: myborder 5s infinite;
+  animation-direction: alternate;
+ }
+
+
+
 
 /********** Desktop device **********/
 @media (min-width: 992px) 
 {
   .col-lg-4 {
     width: 29%;
-  }
+   }
+ .logo {
+  width:270px;
+  height:151px;
 }
+.star {
+  top:10px;
+  right:231px;
+}
+   }
 
 /********** Tablet device **********/
 @media (min-width: 768px) and (max-width: 991px)
@@ -93,11 +120,28 @@ section {
   .col-md-12 {
     width: 96%;
   }
+  .logo {
+  width:270px;
+  height:151px;
 }
+.star {
+  top:10px;
+  right:231px;
+}
+}
+
 /********** Mobile device **********/
 @media (max-width: 767px)
 {
   .col-sd-12 {
     width: 96%;
   }
+  .logo {
+  width:200px;
+  height:112px;
+}
+.star {
+  top:10px;
+  right:180px;
+}
 }
