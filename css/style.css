@@ -33,11 +33,43 @@ section {
   float: left;
   position: relative;
   background-color: none;
-  
+  }
+
 .row {
   width: 100%;
+}
+
+.subpage{
+  width:80%;
+  margin-top:-5%;
+  position: absolute;
+  text-align:center;
+  background-color: none;
+  
+
+  }
+
+.select {
+  font-size:100;
+  color: #BFBAB1;
+  text-decoration: none;
+  margin:5px;
 
 }
+
+div a:link, div a:visited {
+  font-size:100;
+  color: #BFBAB1;
+  text-decoration: none;
+   }
+
+
+div a:hover {
+    font-weight:bold;
+    cursor:pointer;
+    
+    }
+
 
 .par1 {
   background-color:none;
@@ -51,7 +83,7 @@ section {
   background-color: none;
  }
 
-}
+
  @keyframes myborder {
   0% {opacity:0;}
   95% {opacity:0.05;}
