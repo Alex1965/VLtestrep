@@ -155,6 +155,10 @@ section {
   top:10px;
   right:180px;
 }
+h1{
+  margin-top:35%;
+  margin-bottom: 30px;;
+}
 .title {
   position: absolute;
   top:0;
@@ -164,7 +168,7 @@ section {
   border-top-width:0px;
   border-right-width:0px;
   text-align:left;
-  font-size:200%;
+  font-size:255%;
   color:#BFBAB1;
 }
 }
