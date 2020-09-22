@@ -34,32 +34,9 @@ section {
   position: relative;
   background-color: none;
   
-  
- }
-
- @keyframes myborder {
-  0% {opacity:0;}
-  95% {opacity:0.05;}
-  100% {opacity:0.4;}
- }
-
 .row {
   width: 100%;
 
-}
-
-.title {
-  position: absolute;
-  top:0;
-  left:15px;
-  width:100%;
-  border: 0px solid black;
-  border-top-width:0px;
-  border-right-width:0px;
-  text-align:left;
-  font-size:255%;
-  color:#BFBAB1;
-  
 }
 
 .par1 {
@@ -74,11 +51,17 @@ section {
   background-color: none;
  }
 
+}
+ @keyframes myborder {
+  0% {opacity:0;}
+  95% {opacity:0.05;}
+  100% {opacity:0.4;}
+ }
+
 .star{
   animation: myborder 5s infinite;
   animation-direction: alternate;
 }
-
 
 
 /********** Desktop device **********/
@@ -100,6 +83,18 @@ section {
   position:absolute;
   top:10px;
   right:231px;
+}
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
 }
    }
 
@@ -126,6 +121,18 @@ section {
   top:10px;
   right:231px;
 }
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
+}
 }
 
 /********** Mobile device **********/
@@ -147,5 +154,17 @@ section {
   position:absolute;
   top:10px;
   right:180px;
+}
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:200%;
+  color:#BFBAB1;
 }
 }
