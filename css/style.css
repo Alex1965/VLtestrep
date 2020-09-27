@@ -1,3 +1,23 @@
+body {
+ 
+background-image: url("../images/worldmapsilver95.png"); 
+  background-size: cover;
+  background-position: left top; 
+  background-repeat: no-repeat;
+  background-color: black;
+ 
+}
+h1 {
+
+  color:rgb(115,101,64);
+}
+  
+
+
+
+
+/**
+
 * {
 		box-sizing: border-box;
 		font-family:"Times new Roman", cursive, sans-serif;
@@ -8,16 +28,8 @@ background-image: url("../images/worldmapsilver95.png");
   background-position: left top; 
   background-repeat: no-repeat;
   background-color: black;
-  z-index: 0;  
    }
-h1 {
-	text-align:left;
-	font-size:250%;
-  margin-left:2%;
-  margin-top:25%;
-	margin-bottom: 40px;
-  color:rgb(115,101,64);
-}
+
 p {
   font-size: 100%;
   background-color: none;
@@ -45,8 +57,6 @@ section {
   position: absolute;
   text-align:center;
   background-color: none;
-  
-
   }
 
 .select {
@@ -54,7 +64,6 @@ section {
   color: #BFBAB1;
   text-decoration: none;
   margin:5px;
-
 }
 
 div a:link, div a:visited {
@@ -89,15 +98,18 @@ div a:hover {
   95% {opacity:0.05;}
   100% {opacity:0.4;}
  }
+**/
 
+/**
 .star{
   animation: myborder 5s infinite;
   animation-direction: alternate;
-}
+  }**/
 
 
-/********** Desktop device **********/
-@media (min-width: 992px) 
+/** ******** Desktop device ******** **/
+/** @media (min-width: 992px) 
+
 {
   .col-lg-4 {
     width: 29%;
@@ -131,6 +143,7 @@ div a:hover {
    }
 
 /********** Tablet device **********/
+/**
 @media (min-width: 768px) and (max-width: 991px)
 {
   .col-md-6 {
@@ -165,10 +178,10 @@ div a:hover {
   font-size:255%;
   color:#BFBAB1;
 }
-}
+} **/
 
 /********** Mobile device **********/
-@media (max-width: 767px)
+/** @media (max-width: 767px)
 {
   .col-sd-12 {
     width: 96%;
@@ -202,5 +215,6 @@ h1{
   text-align:left;
   font-size:255%;
   color:#BFBAB1;
-}
-}
+} 
+}**/
+ 
