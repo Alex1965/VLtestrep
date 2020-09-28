@@ -1,0 +1,201 @@
+
+* {
+		box-sizing: border-box;
+		font-family:"Times new Roman", cursive, sans-serif;
+   }
+body {
+background-image: url("../images/worldmapsilver95.png"); 
+  background-size: cover;
+  background-position: left top; 
+  background-repeat: no-repeat;
+  background-color: black;
+   }
+
+p {
+  font-size: 100%;
+  background-color: none;
+  color: #BFBAB1;
+  text-align:justify;
+  height: 100px;
+  overflow: hidden;
+ }
+section {
+  padding: 40px 15px 15px 15px;
+  margin: 2% 2% 2% 2%;
+  border: 0px solid black;
+  float: left;
+  position: relative;
+  background-color: none;
+  }
+
+.row {
+  width: 100%;
+}
+
+.subpage{
+  width:100%;
+  margin-top:-5%;
+  position: absolute;
+  text-align:center;
+  background-color: none;
+  }
+
+.select {
+  font-size:100;
+  color: #BFBAB1;
+  text-decoration: none;
+  margin:5px;
+}
+
+div a:link, div a:visited {
+  font-size:100;
+  color: #BFBAB1;
+  text-decoration: none;
+   }
+
+
+div a:hover {
+    color: rgb(115,101,64);
+    cursor:pointer;
+    
+    }
+
+
+.par1 {
+  background-color:none;
+  }
+
+.par2 {
+  background-color: none;
+   }
+
+.par3 {
+  background-color: none;
+ }
+
+
+ @keyframes myborder {
+  0% {opacity:0;}
+  95% {opacity:0.05;}
+  100% {opacity:0.4;}
+ }
+
+
+
+.star{
+  animation: myborder 5s infinite;
+  animation-direction: alternate;
+  }
+
+
+/** ******** Desktop device ******** **/
+ @media (min-width: 992px) 
+
+{
+  .col-lg-4 {
+    width: 29%;
+   }
+ .logo {
+  width:270px;
+  height:151px;
+  position:absolute;
+  top:25px;
+  right:25px;
+}
+.star {
+  width:30px;
+  height:35px;
+  position:absolute;
+  top:10px;
+  right:206px;
+}
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
+}
+   }
+
+/********** Tablet device **********/
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .col-md-6 {
+    width: 46%;
+  }
+  .col-md-12 {
+    width: 96%;
+  }
+  .logo {
+  width:200px;
+  height:112px;
+  position:absolute;
+  top:25px;
+  right:25px;
+}
+.star {
+  width:30px;
+  height:35px;
+  position:absolute;
+  top:10px;
+  right:155px;
+}
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
+}
+} 
+
+/********** Mobile device **********/
+ @media (max-width: 767px)
+{
+  .col-sd-12 {
+    width: 96%;
+  }
+  .logo {
+  width:150px;
+  height:84px;
+  position:absolute;
+  top:25px;
+  right:25px;
+}
+.star {
+  width:30px;
+  height:35px;
+  position:absolute;
+  top:10px;
+  right:155px;
+}
+h1{
+  margin-top:35%;
+  margin-bottom: 30px;;
+}
+.title {
+  position: absolute;
+  top:0;
+  left:15px;
+  width:100%;
+  border: 0px solid black;
+  border-top-width:0px;
+  border-right-width:0px;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
+} 
+}
+ 
