@@ -30,7 +30,7 @@ h2{
   margin-left:10px;
 }
 
-
+/**
 @media screen and (max-width: 767px){
   #navbarCollapse {
   position:absolute;
@@ -38,6 +38,6 @@ h2{
   left:80px;
   line-height: 10px;
 }
-}
+}**/
 
 }
