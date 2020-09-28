@@ -31,7 +31,7 @@ h2{
 }
 
 
-@media screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
   #navbarCollapse {
   position:absolute;
   top:10px;
