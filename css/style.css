@@ -17,12 +17,12 @@ h2{
   color:#BFBAB1;
   font-size: 2.3rem;
   font-weight: 200;
- }  
-
+}
+ 
 
 .textapp {
-  color:rgba(191,186,177,0.6);
-  font-size: 1.1rem;
+  color:rgba(191,186,177,0.8);
+  font-size: 1.3rem;
   font-weight: 200;
 }
 
@@ -30,14 +30,21 @@ h2{
   margin-left:10px;
 }
 
+#logo>img{
+height:100px;
+}
 
-@media screen and (max-width: 767px){
+
+
+@media only screen and (max-width: 767px){
   #navbarCollapse {
   position:absolute;
-  top:10px;
+  top:0px;
   left:80px;
-  line-height: 10px;
+  line-height: 14px;
+  font-size:1.2rem;
 }
+#logo>img{
+height:100px;;
 }
-
 }
