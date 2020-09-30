@@ -7,6 +7,7 @@ background-image: url("../images/worldmapsilver95.png");
   background-color: black;
  
 }
+
 h1 {
   color:rgb(115,101,64);
   font-size: 2.5rem;
@@ -19,22 +20,55 @@ h2{
   font-weight: 200;
 }
  
+h3{
+  color:#BFBAB1;
+  font-size: 0.7rem;
+  font-weight: 100;
+  line-height: 0.5rem;
+}
+
 
 .textapp {
-  color:rgba(191,186,177,0.8);
+  color:rgba(191,186,177,0.9);
   font-size: 1.3rem;
-  font-weight: 200;
+  font-weight: 200; 
+  margin:0px; 
+  padding:10px;
 }
 
 .row{
-  margin-left:10px;
+
 }
+.row2{
+margin-top:0px;
+}
+
+.contactbox1{
+  text-align: center;
+  margin-bottom:20px;
+   }
+.contactbox2{
+   text-align: center;
+   border-left-width:1px;
+   border-right-width:1px;
+   border-left-style: solid;
+   border-right-style: solid;
+   border-color: rgb(115,101,64);
+   margin-bottom:20px;
+}
+.socialmedia{
+text-align:center;
+}
+
+
 
 #logo>img{
 height:100px;
 }
 
-
+.bi{
+  color:rgb(115,101,64); 
+}
 
 @media only screen and (max-width: 767px){
   #navbarCollapse {
@@ -47,4 +81,35 @@ height:100px;
 #logo>img{
 height:100px;;
 }
+}
+
+input {
+    background-color:#666;
+    color: #FFF;
+}
+
+.form{
+  width:80%;
+}
+
+.btn {
+    background-color:#484028!important;
+    border-color:transparent!important;
+    font-weight:300!important;   
+}
+
+
+.btn:hover {
+    background-color: #736540!important;
+    border-color:transparent!important;   
+}
+
+.contactbutton{
+  text-align: center;
+}
+
+i.fas,i.fab{
+  color:rgb(115,101,64);
+  font-size:35px;
+  text-align: center;
 }
