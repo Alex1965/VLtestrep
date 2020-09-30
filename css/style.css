@@ -27,6 +27,21 @@ h3{
   line-height: 0.5rem;
 }
 
+h4{
+  color:#BDB76B;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1rem;
+  font-style:italic;
+}
+
+.slogan{
+  color:#736540;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-style:italic;
+}
 
 .textapp {
   color:rgba(191,186,177,0.9);
@@ -60,24 +75,19 @@ margin-top:0px;
 .socialmedia{
 text-align:center;
 }
-
-
-
 #logo>img{
 height:100px;
 }
-
 .bi{
   color:rgb(115,101,64); 
 }
-
 @media only screen and (max-width: 767px){
   #navbarCollapse {
-  position:absolute;
+  /**position:absolute;
   top:0px;
   left:80px;
-  line-height: 14px;
-  font-size:1.2rem;
+  line-height: 10px;
+  font-size:1.2rem;**/
 }
 #logo>img{
 height:100px;;
@@ -111,6 +121,7 @@ input {
 
 i.fas,i.fab{
   color:rgb(115,101,64);
-  font-size:35px;
+  font-size:40px;
   text-align: center;
+  margin: 10px;
 }
