@@ -128,6 +128,7 @@ i.fas,i.fab{
 .form-control {
   background-color:#222222!important;
   opacity:1!important;
+  border-color:transparent!important;
 }
 *::placeholder {
   color:white!important;
