@@ -125,3 +125,11 @@ i.fas,i.fab{
   text-align: center;
   margin: 10px;
 }
+.form-control {
+  background-color:#333333!important;
+  opacity:1!important;
+}
+*::placeholder {
+  color:white!important;
+  opacity:0.5!important;
+}
