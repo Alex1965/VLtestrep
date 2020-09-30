@@ -61,6 +61,7 @@ margin-top:0px;
 .contactbox1{
   text-align: center;
   margin-bottom:20px;
+  padding:0px;
    }
 .contactbox2{
    text-align: center;
@@ -71,6 +72,7 @@ margin-top:0px;
    border-color: rgb(115,101,64);
    line-height:1rem;
    margin-bottom:20px;
+   padding:0px;
 }
 .socialmedia{
 text-align:center;
