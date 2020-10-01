@@ -1,0 +1,56 @@
+body {
+   background-color:grey;
+ }
+
+
+#mycontainer{
+  grid-template-columns: 
+  }
+
+
+#myrow{
+  border-color: blue!important;
+  border-style:solid!important;
+  padding:10px;
+  border:1px;
+  margin:10px;
+  colour:gold!important;
+}
+
+#mycol1{
+  border-color: yellow!important;
+  border-style:solid!important;
+  border:1px;
+  margin:5px;
+  padding:0px;
+  text-align: center;
+  font-size:40px;
+  color:gold;
+}
+#mycol2{
+  border-color: purple!important;
+  border-style:solid!important;
+  border:1px;
+  margin:5px;
+  padding:0px;
+  text-align: center;
+  font-size:40px;
+}
+#mycol3{
+  border-color: red!important;
+  border-style:solid!important;
+  border:1px;
+  margin:5px;
+  padding:0px;
+  text-align: center;
+  font-size:40px;
+}
+#mycol4{
+  border-color: green!important;
+  border-style:solid!important;
+  border:1px;
+  margin:5px;
+  padding:0px;
+  text-align: center;
+  font-size:40px;
+}
