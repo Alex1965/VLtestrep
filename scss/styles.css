@@ -868,8 +868,8 @@
 .themed-container {
   padding: 15px;
   margin-bottom: 30px;
-  background-color: rgba(0, 123, 255, 0.15);
-  border: 1px solid rgba(0, 123, 255, 0.2); }
+  background-color: rgba(105, 105, 105, 0.4);
+  border: 1px solid rgba(105, 105, 105, 0.2); }
 
 #myrow {
   border-color: blue !important;
@@ -880,8 +880,8 @@
   colour: gold !important; }
 
 #mycol1 {
-  border-color: red ;
-  border-style: solid ;
+  border-color: red !important;
+  border-style: solid !important;
   border: 1px;
   margin: 0px;
   padding: 0px;

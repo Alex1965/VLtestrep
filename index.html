@@ -12,55 +12,65 @@
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-transparent mb-3">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="company.html" class="nav-item nav-link">Company</a>
-                        <a href="offers.html" class="nav-item nav-link">What we Offer</a>
-                        <a href="references.html#" class="nav-item nav-link">References</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-				<div id="logo">
-                    <img src="./images/VLlogoinside.png" alt="logo">
-			    </div>
-            </div>    
-        </nav>
-            <div class="container">
-                <div class="jumbotron text-white-50 bg-transparent">
-                    <h1>Verwey Letselschade</h1>
-                    <p class="lead">In today's world injuries can turn into legal conflicts which can seem hopeless to resolve.  At <a href="#" target="_blank"> examples</a> we show you real life practical situation.</p>
-                    <p><a href="contact.html" target="_blank" class="btn btn-dark ">Get help today</a></p>
-                </div>
-            </div>    
-<!--define social media footer-->  
+        <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
+            <a href="index.html">
+                <div id="logo-img" alt="logo"></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul id="nav-list" class="navbar-nav ml-auto">
+                    <li class="nav-item active">    
+                        <a class="nav-link" href="index.html" >Home</a>
+                    </li>    
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#" >Company</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#" >What we Offer</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="contact.html" >Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+<div class="container">
+    <div class="jumbotron text-white-50 bg-transparent">
+        <h1> Verwey Letselschade</h1>
+        <p class="lead"> Onze website is momenteel in onderhoud.<a id="TempMes" href="contact.html"> Contacteer</a> ons als u hulp nodig heeft met financiële problemen door ongevallen of medische missers.</p> 
+        <p class="lead">Our website is currently under maintenance. Please <a id="TempMes" href="contact.html">Contact</a> us if you require help with financial problems due to trafic, medical or other accidents</p>
+    </div>     
+<!--social media footer  
             <div class="container">
                 <div class="row">
                     <div class="col socialmedia">
-                        <h4>Connect with us!</h4>
-                        <i class="fab fa-facebook-square"></i>    
+                        <i class="fab fa-facebook-square"></i>   
                         <i class="fab fa-instagram-square"></i>
                         <i class="fab fa-linkedin"></i>
                     </div>
                 </div>
-            </div>
+            </div> -->
 <!-- *************************-->
-        <footer>
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Copyright © 2020 Verwey Letselschade</p>
+        <footer class="fixed-bottom">
+            <div class="container-fluid">
+                <div class="col socialmedia">
+                        <i class="fab fa-facebook-square"></i>   
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Copyright © 2014 Verwey Letselschade</p>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        <a href="#" class="text-dark">Bedrijfsgegevens</a> 
+                        <span class="text-muted mx-2">|</span> 
+                        <a href="#" class="text-dark">Alg. voorwaarden</a>
+                    </div>
                 </div>
-                <div class="col-md-6 text-md-right">
-                    <a href="#" class="text-dark">Bedrijfsgegevens</a> 
-                    <span class="text-muted mx-2">|</span> 
-                    <a href="#" class="text-dark">Alg. voorwaarden</a>
-                </div>
-            </div>
+            <div>    
         </footer>
     </body>
 </html>

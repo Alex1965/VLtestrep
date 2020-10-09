@@ -28,12 +28,23 @@ h3{
 }
 
 h4{
-  color:#BDB76B;
+  color:rgb(115,101,64);
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1rem;
   font-style:italic;
 }
+
+#TempMes{
+  color:rgb(115,101,64);
+  text-decoration: none;
+}
+
+#TempMes:hover{
+  color:rgb(215,201,64);
+  text-decoration:none;
+}
+
 
 .slogan{
   color:#736540;
@@ -51,8 +62,8 @@ h4{
   padding:10px;
 }
 
-.row{
-
+#nav-list {
+  text-align: right;
 }
 .row2{
 margin-top:0px;
@@ -79,33 +90,33 @@ text-align:center;
 margin:10px;
 
 }
-#logo>img{
-height:100px;
+
+#logo-img {
+  background: url('../images/VLlogoinside.png') no-repeat;
+  background-size:150px;
+  width: 150px;
+  height: 100px;
+  margin: 10px 15px 10px 0;
 }
+
 .bi{
   color:rgb(115,101,64); 
 }
-@media only screen and (max-width: 767px){
+/**@media only screen and (max-width: 767px){
   #navbarCollapse {
-  /**position:absolute;
+ position:absolute;
   top:0px;
   left:80px;
   line-height: 10px;
-  font-size:1.2rem;**/
-}
-#logo>img{
-height:100px;;
-}
-}
+  font-size:1.2rem;
+}*//
 
 input {
     background-color:#666;
     color: #FFF;
 }
 
-.form{
-  width:80%;
-}
+
 
 .btn {
     background-color:#484028!important;
@@ -170,5 +181,5 @@ i.fas,i.fab{
 .socialmedia>i.fab{
   margin-left:3px;
   margin-right:3px;
-  font-size:40px;
+  font-size:25px;
 }
