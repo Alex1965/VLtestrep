@@ -34,6 +34,14 @@ h4{
   line-height: 1rem;
   font-style:italic;
 }
+@media (min-width: 576px){
+
+#LanguageSelect{
+  position:absolute;
+  top:20px;
+  right:20px;
+ }
+}
 
 #TempMes{
   color:rgb(115,101,64);
@@ -107,6 +115,18 @@ margin:10px;
 
  }
 
+.navbar-toggler{
+  position:absolute;
+  right:10px;
+  top:40px;
+}
+
+@media (max-width:576px){
+#navbarCollapse {
+  margin-top:-35px;
+  line-height: 2rem;
+}
+}
 
 .bi{
   color:rgb(115,101,64); 
