@@ -121,7 +121,7 @@ margin:10px;
   top:40px;
 }
 
-@media (max-width:576px){
+@media only screen and (max-width:576px){
 #navbarCollapse {
   margin-top:-35px;
   line-height: 2rem;
