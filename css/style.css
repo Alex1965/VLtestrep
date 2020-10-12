@@ -34,8 +34,21 @@ h4{
   line-height: 1rem;
   font-style:italic;
 }
-@media (min-width: 576px){
 
+#jtronicx{
+  color:rgba(191,186,177,0.3);
+  font-size:0.3rem;
+  margin-top:0px;
+}
+
+#Footerstyle {
+  color:rgba(191,186,177,0.3);
+  font-size:0.8rem;
+  align-content:center;
+}
+
+
+@media only screen and (min-width:576px){
 #LanguageSelect{
   position:absolute;
   top:20px;
@@ -49,7 +62,7 @@ h4{
 }
 
 #TempMes:hover{
-  color:rgb(215,201,64);
+  color:rgb(115,101,64);
   text-decoration:none;
 }
 

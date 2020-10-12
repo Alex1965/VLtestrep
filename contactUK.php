@@ -36,9 +36,9 @@ try
     //and to the sender
     $sendTo = $_POST['email']; 
     $from = 'info@verweyletselschade.com';
-    $subject = "Bevestiging van uw aanvraag bij VerweyLetselschade.";
-    $emailText = "Bedankt voor uw aanvraag!\r\nEen van onze collega's neemt binnenkort contact met u op!\r\nOnderstaand vindt u uw verstuurde gegevens.\r\n\rMet Vriendelijke groet,\r\nHet Verweyletselschade Team\r\n\r";
-    $emailText .= "Verstuurde gegevens:\n\r"; 
+    $subject = "Confirmation of your request at VerweyLetselschade.";
+    $emailText = "Thank you for getting in touch with us!\r\nOne of our colleagues will contact you soon!\r\nBelow you find the information you provided.\r\n\rKind Regards,\r\nThe Verweyletselschade Team\r\n\r";
+    $emailText .= "provided information:\n\r"; 
    
     
     foreach ($_POST as $key => $value) {
@@ -68,7 +68,7 @@ catch (\Exception $e)
 if ($responseArray['type'] == 'success') {
     // success redirect
 
-    header('Location: http://evaldesite.verweyletselschade.com/success.html');
+    header('Location: http://evaldesite.verweyletselschade.com/successUK.html');
 }
 else {
     //error redirect
